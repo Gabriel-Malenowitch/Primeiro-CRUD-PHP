@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --bg-color: rgba(226, 224, 204, 0.87);
+    --bg-container-color: rgba(119, 190, 149, 0.596);
+    --border-container-color: rgba(121, 100, 100, 0.349);
+    --bg-color-botao: #DDD;
+}

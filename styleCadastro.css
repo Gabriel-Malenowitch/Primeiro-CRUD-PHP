@@ -1,0 +1,41 @@
+*{
+    padding: 0;   
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--bg-color);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div{
+    width: auto;
+}
+h1{
+    margin-bottom: 20px;
+}
+#container{
+    background-color: var(--bg-container-color);
+    width: 500px;
+    height: 500px;
+    padding: 60px;
+    border: solid 2px var(--border-container-color);
+    border-radius: 10px;
+}
+.botao{
+    margin-top: 8px;
+    border-radius: 8px;
+    border: solid 0px transparent;
+    padding: 4px;
+    background-color: var(--bg-color-botao);   
+}
+input{
+    width: auto;
+    max-width: 300px;
+    border-radius: 3px;
+    border: solid 0px transparent;
+    padding: 3px;
+    outline: none;
+}
